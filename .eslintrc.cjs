@@ -20,6 +20,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'off',
     'react-hooks/exhaustive-deps': 'off',
     'no-return-assign': 'off',
-    'react/jsx-key': 'off'
+    'react/jsx-key': 'off',
+    'quote-props': 'off'
   },
 }
