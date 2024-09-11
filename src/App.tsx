@@ -1,8 +1,17 @@
+import { Footer } from './components/Footer'
+import { Header } from './components/Header'
+
 function App () {
   return (
-    <main>
-      <h1>Password generator</h1>
-    </main>
+    <body>
+      <Header />
+      <main className='bg-blue-400 p-4 h-full'>
+        <div>
+          Resto de la app
+        </div>
+      </main>
+      <Footer />
+    </body>
   )
 }
 
