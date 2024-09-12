@@ -1,17 +1,16 @@
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
+import { Instructions } from './components/Instructions'
 
 function App () {
   return (
-    <body>
+    <div className='container'>
       <Header />
-      <main className='bg-blue-400 p-4 h-full'>
-        <div>
-          Resto de la app
-        </div>
+      <main className='bg-blue-400 p-4 min-h-full'>
+        <Instructions />
       </main>
       <Footer />
-    </body>
+    </div>
   )
 }
 
