@@ -1,3 +1,5 @@
+import { Slider } from './ui/slider'
+
 export function Instructions () {
   return (
     <article className='bg-blue-400 p-4 pb-14 mx-8 mt-5 rounded-lg'>
@@ -29,9 +31,13 @@ export function Instructions () {
 
           <div className='pt-12'>
             <h3 className='text-h3 text-center'>Password lenght</h3>
-            <div className='w-1/2 my-0 mx-auto text-center pt-5'>
-              Slider
+            <div className='w-1/6 my-0 mx-auto text-center pt-5'>
+              <Slider defaultValue={[1]} max={15} step={1} />
             </div>
+          </div>
+
+          <div className='flex justify-center pt-12'>
+            <button className='bg-slate-500 py-3 px-8 rounded-lg'>Generate</button>
           </div>
 
         </section>
