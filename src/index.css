@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
 html {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Mulish', sans-serif;
@@ -13,15 +19,8 @@ body {
 }
 
 .container {
-  min-width: 100vw;
+  max-width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
-@layer base {
-  :root {
-    --radius: 0.5rem;
-  }
-}
-
