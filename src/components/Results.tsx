@@ -1,6 +1,11 @@
 export function Results () {
-  const random = Math.random().toString(36)
-  console.log(random)
+  const random = Math.random().toString(10)
+  const aux = Math.random().toString(36).toUpperCase()
+  const letters = 'abcdefgh'
+  const specials = '!@#$'
+  console.log('random variable  ' + random)
+  console.log('aux variable  ' + aux)
+
   return (
     <article className='bg-blue-400 p-4 pb-20 mx-8 mt-5 mb-5 rounded-lg'>
       <h2 className='text-h2 text-center'>Your new password</h2>
