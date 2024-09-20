@@ -2,7 +2,7 @@ import { Slider } from './ui/slider'
 
 export function Instructions () {
   return (
-    <article className='bg-blue-400 p-4 pb-14 mx-8 mt-5 rounded-lg'>
+    <article className='bg-blue-400 p-20 pb-20 mx-80 mt-5 rounded-lg'>
       <h2 className='text-h2 text-center'>Generation instructions</h2>
 
       <form className='pt-12'>
