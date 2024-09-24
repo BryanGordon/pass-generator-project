@@ -1,10 +1,10 @@
-import { Generator } from '@/logic/generator'
+import { Generator } from '@/logic/Generator'
 
 export function Results () {
   const info = {
-    letters: 'abcdefgh',
-    numbers: '123',
-    specials: '!@#$'
+    letters: 'abcdefghijklmnopqrstuvwxyz',
+    numbers: '1234567890',
+    specials: '!@#$~`%^&*()-_=+{}[];:""><?|.,/'
   }
 
   const data = Generator(info)
