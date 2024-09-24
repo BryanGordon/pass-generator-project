@@ -1,5 +1,5 @@
 import { type Data } from '@/types/types'
-const length = 5
+const length = 15
 
 export function Generator ({ letters, numbers, specials }: Data) {
   let aux:string = ''
